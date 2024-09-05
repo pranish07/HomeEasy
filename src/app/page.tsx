@@ -1,6 +1,16 @@
+import Footer from "@/components/footer";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import Navbar from "@/components/ui/navbar";
+import Header from "@/components/ui/navbar";
+import Search  from "@/components/ui/search" 
 
 export default function Home() {
-  return <Button variant="outline">Button</Button>;
+  return(
+    <div>
+      <Navbar/>
+      <Button variant="outline">Button</Button>;
+      <Search/>
+      <Footer />
+    </div>
+  )
 }
